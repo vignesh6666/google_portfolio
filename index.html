@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Google</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Product+Sans:wght@400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="home-page">
+
+  <div class="home-container">
+    <h1 class="google-logo-text" aria-label="Google">
+      <span class="blue">G</span><span class="red">o</span><span class="yellow">o</span><span class="blue">g</span><span class="green">l</span><span class="red">e</span>
+    </h1>
+
+    <div class="search-box" id="homeSearchBox" role="button" tabindex="0" aria-label="Search for vajja vignesh chandra">
+      <i class="fas fa-search search-icon"></i>
+      <input
+        type="text"
+        id="searchInput"
+        value="vajja vignesh chandra"
+        readonly
+      />
+      <i class="fas fa-keyboard keyboard-icon"></i>
+    </div>
+
+    <div class="search-buttons">
+      <button type="button" onclick="goToPortfolio()">Google Search</button>
+      <button type="button" onclick="goToPortfolio()">I'm Feeling Lucky</button>
+    </div>
+
+    <p class="hint">
+      <i class="fas fa-arrow-turn-down fa-rotate-90"></i>
+      Press <kbd>Enter</kbd> to search
+    </p>
+  </div>
+
+  
+
+  <script src="script.js"></script>
+</body>
+</html>

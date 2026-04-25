@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>vajja vignesh chandra - Google Search</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Product+Sans:wght@400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="portfolio-page">
+
+  <header class="top-bar">
+    <div class="top-header-row">
+      <a href="index.html" class="small-google-logo" aria-label="Back to Google">
+        <span class="blue">G</span><span class="red">o</span><span class="yellow">o</span><span class="blue">g</span><span class="green">l</span><span class="red">e</span>
+      </a>
+
+      <div class="top-search" id="portfolioSearchBox">
+        <i class="fas fa-search search-icon"></i>
+        <input type="text" value="vajja vignesh chandra" readonly />
+        <i class="fas fa-times clear-icon" id="clearSearch" title="Back to home"></i>
+      </div>
+
+      <div class="header-right">
+        <a href="mailto:vigneshvajja5@gmail.com" title="Email" class="header-icon">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/vigneshchandraa/" target="_blank" rel="noopener noreferrer" title="LinkedIn" class="header-icon">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/vignesh6666?tab=repositories" target="_blank" rel="noopener noreferrer" title="GitHub" class="header-icon">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </div>
+
+    <nav class="top-nav">
+      <a href="#" class="nav-tab active" data-section="about" onclick="showSection('about'); return false;">
+        <i class="fas fa-user"></i> About
+      </a>
+      <a href="#" class="nav-tab" data-section="experience" onclick="showSection('experience'); return false;">
+        <i class="fas fa-briefcase"></i> Experience
+      </a>
+      <a href="#" class="nav-tab" data-section="certifications" onclick="showSection('certifications'); return false;">
+        <i class="fas fa-certificate"></i> Certifications
+      </a>
+      <a href="#" class="nav-tab" data-section="projects" onclick="showSection('projects'); return false;">
+        <i class="fas fa-code"></i> Projects
+      </a>
+      <a href="#" class="nav-tab" data-section="contact" onclick="showSection('contact'); return false;">
+        <i class="fas fa-paper-plane"></i> Contact
+      </a>
+    </nav>
+  </header>
+
+  <div class="content-wrapper">
+    <main class="results-container">
+      <p class="results-info">About 5 results (0.24 seconds)</p>
+
+      <section id="about" class="result-card section">
+        <div class="result-header">
+          <img src="assets/favicon.png" alt="" class="result-favicon" onerror="this.style.display='none'"/>
+          <div>
+          </div>
+        </div>
+
+        <h2 class="result-title">Vajja Vignesh Chandra — Data Engineer</h2>
+
+        <div class="about-section">
+          <img
+            src="assets/profile.jpg"
+            class="profile-pic"
+            alt="Profile photo of Vignesh"
+            onerror="this.src='https://ui-avatars.com/api/?name=V+C&background=4285f4&color=fff&size=150'"
+          />
+
+          <div class="about-text">
+            <p>
+              Hi, I'm <strong>Vajja Vignesh Chandra</strong>, a data engineering-focused
+              professional with experience in Python, SQL, ETL pipelines, data processing,
+              data validation, cloud analytics, and infrastructure reporting. I build scalable
+              data workflows, operational dashboards, and reliable data solutions across cloud
+              and data center environments.
+            </p>
+
+            <div class="about-tags">
+              <span class="tag">Python</span>
+              <span class="tag">SQL</span>
+              <span class="tag">ETL Pipelines</span>
+              <span class="tag">Data Validation</span>
+              <span class="tag">Redshift</span>
+              <span class="tag">QuickSight</span>
+              <span class="tag">Power BI</span>
+              <span class="tag">PostgreSQL</span>
+              <span class="tag">Docker</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="result-card section hidden">
+        <div class="result-header">
+          <div>
+          </div>
+        </div>
+
+        <h2 class="result-title">Work Experience</h2>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>DCO Tech <span class="timeline-badge current">Current</span></h3>
+              <p class="timeline-meta">
+                <i class="fas fa-building"></i> Amazon Web Services, Dallas, TX
+                &nbsp;|&nbsp;
+                <i class="fas fa-calendar"></i> February 2026 – Present
+              </p>
+              <p>
+                Monitored large-scale server and infrastructure logs across distributed data center clusters
+                to identify performance bottlenecks, detect anomalies, and resolve recurring failure patterns.
+                Built Python automation for log collection, parsing, and validation, used SQL for internal
+                reporting, and created QuickSight dashboards for server health, component failure rates,
+                and cluster performance.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Data Center Engineer</h3>
+              <p class="timeline-meta">
+                <i class="fas fa-building"></i> Oracle, Sterling, VA
+                &nbsp;|&nbsp;
+                <i class="fas fa-calendar"></i> January 2024 – December 2025
+              </p>
+              <p>
+                Managed server lifecycle and OCI infrastructure operations while maintaining structured
+                asset and configuration data. Extracted and analyzed system logs using Python and SQL,
+                validated operational datasets, supported capacity planning, and developed OCI Console
+                dashboards for utilization trends and system performance metrics.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Program Analyst</h3>
+              <p class="timeline-meta">
+                <i class="fas fa-building"></i> Cognizant, India
+                &nbsp;|&nbsp;
+                <i class="fas fa-calendar"></i> January 2022 – July 2022
+              </p>
+              <p>
+                Built interactive Power BI dashboards using Amazon Redshift data for KPI tracking and
+                business reporting. Wrote optimized SQL queries to extract, transform, and analyze datasets
+                from the Redshift warehouse and supported data modeling and validation processes.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="certifications" class="result-card section hidden">
+        <div class="result-header">
+          <div>
+          </div>
+        </div>
+
+        <h2 class="result-title">Certifications & Achievements</h2>
+
+        <div class="cert-grid">
+          <a href="assets/AWS Cloud Practitioner.pdf" target="_blank" class="cert-card">
+            <i class="fas fa-award cert-icon"></i>
+            <div>
+              <strong>AWS Cloud Practitioner</strong>
+              <p>Amazon Web Services</p>
+            </div>
+            <i class="fas fa-external-link-alt cert-link"></i>
+          </a>
+
+          <a href="assets/AWS Cloud Practitioner.pdf" target="_blank" class="cert-card">
+            <i class="fas fa-award cert-icon"></i>
+            <div>
+              <strong>AWS Developer Associate</strong>
+              <p>Amazon Web Services</p>
+            </div>
+            <i class="fas fa-external-link-alt cert-link"></i>
+          </a>
+        </div>
+      </section>
+
+      <section id="projects" class="result-card section hidden">
+        <div class="result-header">
+          <div>
+          </div>
+        </div>
+
+        <h2 class="result-title">Projects</h2>
+
+        <div class="project-grid">
+          <a href="#" target="_blank" class="project-card">
+            <div class="project-card-top">
+              <i class="fas fa-folder-open project-icon"></i>
+              <i class="fas fa-external-link-alt"></i>
+            </div>
+            <h3>Real-Time Data Streaming and Analytics Pipeline</h3>
+            <p>
+              Designed a real-time streaming architecture using Apache Kafka, AWS, and PySpark
+              to process high-velocity e-commerce transaction data with ETL workflows into S3 and Redshift.
+            </p>
+            <div class="project-tags">
+              <span>Kafka</span>
+              <span>AWS</span>
+              <span>PySpark</span>
+              <span>Redshift</span>
+            </div>
+          </a>
+
+          <a href="#" target="_blank" class="project-card">
+            <div class="project-card-top">
+              <i class="fas fa-folder-open project-icon"></i>
+              <i class="fas fa-external-link-alt"></i>
+            </div>
+            <h3>Real-Time Incident Alerting & Routing Automation</h3>
+            <p>
+              Built Python automation to detect Sev-2 and Sev-3 tickets across data center clusters,
+              publish Slack alerts, route incidents across technicians, and visualize trends in QuickSight.
+            </p>
+            <div class="project-tags">
+              <span>Python</span>
+              <span>Slack</span>
+              <span>QuickSight</span>
+              <span>Automation</span>
+            </div>
+          </a>
+
+          <a href="#" target="_blank" class="project-card">
+            <div class="project-card-top">
+              <i class="fas fa-folder-open project-icon"></i>
+              <i class="fas fa-external-link-alt"></i>
+            </div>
+            <h3>End-to-End Data Pipeline for NYC Taxi Analytics</h3>
+            <p>
+              Built a scalable ETL pipeline using Python, SQL, S3, and Amazon Redshift,
+              with Power BI dashboards for trip trends, revenue patterns, and demand analysis.
+            </p>
+            <div class="project-tags">
+              <span>Python</span>
+              <span>SQL</span>
+              <span>S3</span>
+              <span>Power BI</span>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <section id="contact" class="result-card section hidden">
+        <div class="result-header">
+          <div>
+          </div>
+        </div>
+
+        <h2 class="result-title">Get in Touch</h2>
+
+        <div class="contact-grid">
+          <a href="mailto:vigneshvajja5@gmail.com" class="contact-card">
+            <i class="fas fa-envelope"></i>
+            <strong>Email</strong>
+            <p>vigneshvajja5@gmail.com</p>
+          </a>
+
+          <a href="tel:7162596302" class="contact-card">
+            <i class="fas fa-phone"></i>
+            <strong>Phone</strong>
+            <p>7162596302</p>
+          </a>
+
+          <a href="https://www.linkedin.com/in/vigneshchandraa/" target="_blank" rel="noopener noreferrer" class="contact-card">
+            <i class="fab fa-linkedin"></i>
+            <strong>LinkedIn</strong>
+            <p>/in/vigneshchandraa</p>
+          </a>
+
+          <a href="https://github.com/vignesh6666?tab=repositories" target="_blank" rel="noopener noreferrer" class="contact-card">
+            <i class="fab fa-github"></i>
+            <strong>GitHub</strong>
+            <p>github.com/vignesh6666</p>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <aside class="knowledge-panel">
+      <img
+        src="assets/profile1.jpg"
+        alt="Vignesh profile"
+        class="kp-photo"
+        onerror="this.src='https://ui-avatars.com/api/?name=V+C&background=4285f4&color=fff&size=300'"
+      />
+
+      <h2>Vajja Vignesh Chandra</h2>
+      <p class="kp-subtitle">Data Engineer</p>
+
+      <hr />
+
+      <table class="kp-table">
+        <tr>
+          <td>Skills</td>
+          <td>Python, SQL, ETL, Data Warehousing, Redshift, QuickSight</td>
+        </tr>
+        <tr>
+          <td>Focus</td>
+          <td>Data pipelines, cloud analytics, validation, and operational reporting</td>
+        </tr>
+        <tr>
+          <td>Location</td>
+          <td>Dallas, TX</td>
+        </tr>
+        <tr>
+          <td>Education</td>
+          <td>University at Buffalo – MPS in Data Science and Applications</td>
+        </tr>
+      </table>
+
+      <hr />
+
+      <div class="kp-links">
+        <a href="mailto:vigneshvajja5@gmail.com" title="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/vigneshchandraa/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/vignesh6666?tab=repositories" target="_blank" rel="noopener noreferrer" title="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+
+      <div class="kp-resume-actions">
+        <a href="assets/resume1.pdf" target="_blank" class="kp-resume-btn">
+          <i class="fas fa-eye"></i> View Resume
+        </a>
+
+        <a href="assets/resume1.pdf" download class="kp-resume-btn">
+          <i class="fas fa-file-arrow-down"></i> Download Resume
+        </a>
+      </div>
+    </aside>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
